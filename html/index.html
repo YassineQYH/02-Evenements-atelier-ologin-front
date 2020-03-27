@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>oLogin</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- Décommentez la feuille de styles suivantes à vos risques et périls... -->
+  <!-- <link rel="stylesheet" href="../css/f0f.css"> -->
+
+  <style>
+    .red{
+      color: red;
+    }
+    .blue{
+      color: blue;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div id="app">
+
+    <header id="header">
+
+      <h1 id="app-title"><a href="#">oLogin</a></h1>
+
+      <nav id="nav">
+        <a href="./">Accueil</a>
+        <a href="https://www.youtube.com/channel/UCgn_1SNFTuR_JGA7frsm-1w?view_as=subscriber" >Profil Youtube</a>
+        <a href="#">À propos</a>
+        <a href="#">FAQ</a>
+        <a href="#">Contact</a>
+      </nav>
+
+    </header>
+
+<!-- Vidéo d'exercices ::  https://www.youtube.com/watch?v=KnBEDuzvRCA&list=PLjwdMgw5TTLVzD9Jq_WBd1crqDwXRn4cw&index=13 -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos saepe, rerum quaerat consequatur dolor in eum vel odit minima fugiat.
+
+      <a href="https://saint-seiyasama-tencent.000webhostapp.com/Seiya_Sagitaire.html" class ="ssa">Mon site SSA</a>
+      <a href="https://www.youtube.com/channel/UCgn_1SNFTuR_JGA7frsm-1w?view_as=subscriber" >Profil Youtube</a>
+    </p>
+
+    <div id="login">
+
+      <form action="#" id="login-form" method="post" autocomplete="off" >
+
+        <div id="form-title">Connexion</div>
+
+        <div class="field">
+
+          <label class="field-label" for="field-username"  >Identifiant</label>
+          <input class="field-input" id="field-username" name="username" type="text"placeholder="Identifiant" />
+          <p class="field-info">Obligatoire - doit contenir au minimum 3 caractères</p>
+        </div>
+
+        <div class="field">
+          <label class="field-label"for="field-password">Mot de passe</label>
+          <input class="field-input"id="field-password"name="password"type="password"placeholder="Mot de passe" />
+          <p class="field-info">Obligatoire - doit contenir au minimum 3 caractères</p>
+        </div>
+
+        <div id="errors"></div>
+        <button id="login-submit">Connexion</button>
+
+        <input type="text" id="cp">
+        <input type="submit" value="envoyer">
+      </br>
+        <input type="checkbox" id="mentions">J'accepte les mentions légales.
+        <input type="submit" value="envoyer">
+      </br>
+      <input type="text" id="demo" value="Salut">
+    </br>
+      <select name="age" id="age" > <!-- rajouter :: Multiple :: Permet de cocher plusieurs choix -->
+          <option value="4">4</option>
+          <option value="20">20</option>
+      </select>
+      <input type="submit" value="envoyer">
+      </form>
+
+    </div>
+
+
+
+
+
+    <footer id="footer">
+      Rejoignez-nous
+    </footer>
+
+  </div>
+  
+  <script src="../js/app-07.js"></script>
+
+</body>
+</html>
